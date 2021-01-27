@@ -1,18 +1,19 @@
-body {
-	font-family: "copperplate", fantasy;
-}
+
 
 h1{
+   font-family: cooperplate, fantasy;	
    text-align: center;
    font-weight: normal;
    font-size: 400%;   
 }
 h2{
+	font-family: cooperplate, fantasy;
 	text-align: center;
 	font-weight: normal;
-	font-size: 400%;
+	font-size: 250%;
 }
 h3{
+	font-family: helvetica, arial;
 	background-color: blue; 
 	margin-left: 20px;
 	font-size: 200%;
@@ -24,14 +25,16 @@ p {
 	font-size: 200%;
 }
 nav {
-	background-color: black;
+	font-family: georgia, serif;
+	background-color: white;
 	text-align: center;
 	font-size: 155%;
 	letter-spacing: 1px;
 }
 ul {
+	font-family: helvetica, arial;
 	font-weight: normal;
-	font-size: 115%;
+	font-size: 20px;
 	padding: 1em;
 	color: white;
 	letter-spacing: 1px;
@@ -43,18 +46,13 @@ ul {
 }
 #left {
 	background-color: blue;
-	border: 1% black solid;
+	border: 1px white solid;
 	padding: 1em;
 	float: left;
-	width: 33.33%;
-}	
-#right + h3 + ul {
-	background-color: blue;
-	border: 1px blue solid;
-	padding: 1em;
-	float: right;
-	width: 50%;
-}	
+	width: 100%;
+	min-height: 27em;
+}
+		
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -73,4 +71,5 @@ header {
 	h3 + ul {
       overflow: auto;
 	}
+
 }
